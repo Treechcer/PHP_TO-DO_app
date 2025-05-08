@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, form {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+        input{
+            width: 31%;
+        }
+      </style>
+</head>
+<body>
+    <div id="mainD">
+        <div>
+            <table id="table">
+                <tr>
+                    <th>INDEX</th>
+                    <th>To-Do</th>
+                    <th>State</th>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <form id="t">
+                <input type="text" name="data0" id="data0">
+                <input type="checkbox" name="data1" id="data1">
+                <input type="submit" name="sub" id="sub">
+                <input type="button" value="load data" id="load"> 
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
