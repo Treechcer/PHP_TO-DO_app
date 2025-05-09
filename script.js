@@ -32,6 +32,13 @@ function submit(event){
     data[0] = document.getElementById("data0").value;
     data[1] = document.getElementById("data1").checked;
 
+    if(data[1]){
+        data[1] = "done"
+    }
+    else{
+        data[1] = "not done"
+    }
+
     if (data[0] != ""){
         addRow(data);
         sendData(data);
